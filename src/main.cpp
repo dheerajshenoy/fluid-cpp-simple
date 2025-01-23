@@ -12,9 +12,6 @@ int main() {
 
     FluidCube *fluid = new FluidCube(0, 0, 0.1);
 
-    dj::Rectangle rect({ 40.0, 40.0 }, 40.0, 40.0);
-    fluid->addRectangle(rect, 50.0);
-
     // Variables to track mouse dragging
     bool isDragging = false;
     Vector2 dragStartPos = {0};
